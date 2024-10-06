@@ -1,0 +1,639 @@
+[32m2024-10-06 11:18:36.663[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] Starting BookCRUDApplication using Java 23 with PID 28528 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+[32m2024-10-06 11:18:36.665[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[32m2024-10-06 11:18:36.739[0;39m [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[32m2024-10-06 11:18:36.739[0;39m [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[32m2024-10-06 11:18:37.379[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-10-06 11:18:37.426[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+[32m2024-10-06 11:18:37.906[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+[32m2024-10-06 11:18:37.919[0;39m [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[32m2024-10-06 11:18:37.919[0;39m [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.30]
+[32m2024-10-06 11:18:37.968[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[32m2024-10-06 11:18:37.968[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1228 ms
+[32m2024-10-06 11:18:38.131[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-10-06 11:18:38.205[0;39m [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.3.Final
+[32m2024-10-06 11:18:38.243[0;39m [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+[32m2024-10-06 11:18:38.586[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-10-06 11:18:38.616[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+[32m2024-10-06 11:18:38.826[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2aecc770
+[32m2024-10-06 11:18:38.827[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+[32m2024-10-06 11:18:38.896[0;39m [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-10-06 11:18:39.767[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-10-06 11:18:39.848[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-10-06 11:18:40.123[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-10-06 11:18:40.456[0;39m [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[32m2024-10-06 11:18:40.492[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+[32m2024-10-06 11:18:40.499[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] Started BookCRUDApplication in 4.286 seconds (process running for 4.987)
+[32m2024-10-06 11:19:22.824[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-10-06 11:19:22.826[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+[32m2024-10-06 11:19:22.830[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-10-06 11:19:25.960[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] Starting BookCRUDApplication using Java 23 with PID 27268 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+[32m2024-10-06 11:19:25.962[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[32m2024-10-06 11:19:26.024[0;39m [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[32m2024-10-06 11:19:26.025[0;39m [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[32m2024-10-06 11:19:26.674[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-10-06 11:19:26.713[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+[32m2024-10-06 11:19:27.151[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+[32m2024-10-06 11:19:27.168[0;39m [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[32m2024-10-06 11:19:27.168[0;39m [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.30]
+[32m2024-10-06 11:19:27.206[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[32m2024-10-06 11:19:27.207[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1181 ms
+[32m2024-10-06 11:19:27.328[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-10-06 11:19:27.375[0;39m [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.3.Final
+[32m2024-10-06 11:19:27.405[0;39m [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+[32m2024-10-06 11:19:27.699[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-10-06 11:19:27.726[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+[32m2024-10-06 11:19:27.876[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23fffedd
+[32m2024-10-06 11:19:27.877[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+[32m2024-10-06 11:19:27.913[0;39m [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-10-06 11:19:28.716[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-10-06 11:19:28.762[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-10-06 11:19:29.000[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-10-06 11:19:29.300[0;39m [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[32m2024-10-06 11:19:29.329[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+[32m2024-10-06 11:19:29.335[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] Started BookCRUDApplication in 3.757 seconds (process running for 4.365)
+[32m2024-10-06 11:19:31.310[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-10-06 11:19:31.310[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+[32m2024-10-06 11:19:31.311[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+[32m2024-10-06 11:19:31.338[0;39m [TRACE] com.example.bookcrud.controller.BookController [http-nio-8080-exec-3] TRACE MESSAGE
+[32m2024-10-06 11:19:31.338[0;39m [WARN] com.example.bookcrud.controller.BookController [http-nio-8080-exec-3] WARNING MESSAGE
+[32m2024-10-06 11:19:31.338[0;39m [INFO] com.example.bookcrud.controller.BookController [http-nio-8080-exec-3] INFO MESSAGE
+[32m2024-10-06 11:19:31.338[0;39m [DEBUG] com.example.bookcrud.controller.BookController [http-nio-8080-exec-3] DEBUG MESSAGE
+[32m2024-10-06 11:19:31.339[0;39m [ERROR] com.example.bookcrud.controller.BookController [http-nio-8080-exec-3] ERROR MESSAGE
+[32m2024-10-06 11:21:27.003[0;39m [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[32m2024-10-06 11:21:27.015[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-10-06 11:21:27.017[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+[32m2024-10-06 11:21:27.023[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+[32m2024-10-06 11:21:27.095[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] Starting BookCRUDApplication using Java 23 with PID 27268 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+[32m2024-10-06 11:21:27.095[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[32m2024-10-06 11:21:27.248[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-10-06 11:21:27.256[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+[32m2024-10-06 11:21:27.350[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+[32m2024-10-06 11:21:27.350[0;39m [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[32m2024-10-06 11:21:27.350[0;39m [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.30]
+[32m2024-10-06 11:21:27.367[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[32m2024-10-06 11:21:27.367[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 270 ms
+[32m2024-10-06 11:21:27.395[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-10-06 11:21:27.397[0;39m [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+[32m2024-10-06 11:21:27.404[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-10-06 11:21:27.404[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+[32m2024-10-06 11:21:27.442[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@35a35459
+[32m2024-10-06 11:21:27.443[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+[32m2024-10-06 11:21:27.451[0;39m [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-10-06 11:21:27.487[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-10-06 11:21:27.497[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-10-06 11:21:27.558[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-10-06 11:21:27.632[0;39m [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[32m2024-10-06 11:21:27.641[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+[32m2024-10-06 11:21:27.643[0;39m [INFO] com.example.bookcrud.BookCRUDApplication [restartedMain] Started BookCRUDApplication in 0.573 seconds (process running for 122.674)
+[32m2024-10-06 11:21:27.645[0;39m [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[32m2024-10-06 11:21:31.733[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-10-06 11:21:31.733[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+[32m2024-10-06 11:21:31.734[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+[32m2024-10-06 11:21:31.735[0;39m [TRACE] com.example.bookcrud.controller.BookController [http-nio-8080-exec-2] TRACE MESSAGE
+[32m2024-10-06 11:21:31.735[0;39m [WARN] com.example.bookcrud.controller.BookController [http-nio-8080-exec-2] WARNING MESSAGE
+[32m2024-10-06 11:21:31.735[0;39m [INFO] com.example.bookcrud.controller.BookController [http-nio-8080-exec-2] INFO MESSAGE
+[32m2024-10-06 11:21:31.735[0;39m [DEBUG] com.example.bookcrud.controller.BookController [http-nio-8080-exec-2] DEBUG MESSAGE
+[32m2024-10-06 11:21:31.735[0;39m [ERROR] com.example.bookcrud.controller.BookController [http-nio-8080-exec-2] ERROR MESSAGE
+[32m2024-10-06 11:35:20.798[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-10-06 11:35:20.799[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+[32m2024-10-06 11:35:20.802[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2024-10-06T13:18:01.649+03:00  INFO 15972 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 15972 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:18:01.650+03:00  INFO 15972 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:18:01.712+03:00  INFO 15972 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:18:01.713+03:00  INFO 15972 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:18:02.343+03:00  INFO 15972 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:18:02.388+03:00  INFO 15972 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-10-06T13:18:02.854+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:18:02.867+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:18:02.867+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:18:02.910+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:18:02.910+03:00  INFO 15972 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2024-10-06T13:18:03.042+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:18:03.106+03:00  INFO 15972 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:18:03.142+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:18:03.477+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:18:03.511+03:00  INFO 15972 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:18:03.702+03:00  INFO 15972 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@703a180a
+2024-10-06T13:18:03.704+03:00  INFO 15972 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:18:03.769+03:00  WARN 15972 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:18:04.595+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:18:04.666+03:00  INFO 15972 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:18:04.907+03:00  WARN 15972 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:18:05.200+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:18:05.228+03:00  INFO 15972 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:18:05.234+03:00  INFO 15972 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 4.006 seconds (process running for 4.813)
+2024-10-06T13:18:11.191+03:00  INFO 15972 --- [hotelManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:18:11.191+03:00  INFO 15972 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:18:11.192+03:00  INFO 15972 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:18:19.878+03:00  INFO 15972 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:18:19.880+03:00  INFO 15972 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:18:19.884+03:00  INFO 15972 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:26:42.620+03:00  INFO 23836 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 23836 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:26:42.622+03:00  INFO 23836 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:26:42.688+03:00  INFO 23836 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:26:42.688+03:00  INFO 23836 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:26:43.216+03:00  INFO 23836 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:26:43.258+03:00  INFO 23836 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2024-10-06T13:26:43.667+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:26:43.677+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:26:43.678+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:26:43.715+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:26:43.715+03:00  INFO 23836 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+2024-10-06T13:26:43.827+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:26:43.876+03:00  INFO 23836 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:26:43.903+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:26:44.154+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:26:44.179+03:00  INFO 23836 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:26:44.301+03:00  INFO 23836 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@394bdf4c
+2024-10-06T13:26:44.302+03:00  INFO 23836 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:26:44.331+03:00  WARN 23836 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:26:44.983+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:26:45.028+03:00  INFO 23836 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:26:45.243+03:00  WARN 23836 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:26:45.523+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:26:45.550+03:00  INFO 23836 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:26:45.556+03:00  INFO 23836 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.285 seconds (process running for 3.858)
+2024-10-06T13:26:45.864+03:00  INFO 23836 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:26:45.866+03:00  INFO 23836 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:26:45.869+03:00  INFO 23836 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:27:09.561+03:00  INFO 26976 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 26976 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:27:09.563+03:00  INFO 26976 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:27:09.623+03:00  INFO 26976 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:27:09.624+03:00  INFO 26976 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:27:10.148+03:00  INFO 26976 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:27:10.193+03:00  INFO 26976 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-10-06T13:27:10.595+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:27:10.607+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:27:10.607+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:27:10.646+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:27:10.646+03:00  INFO 26976 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2024-10-06T13:27:10.764+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:27:10.804+03:00  INFO 26976 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:27:10.830+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:27:11.070+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:27:11.092+03:00  INFO 26976 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:27:11.214+03:00  INFO 26976 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13498a29
+2024-10-06T13:27:11.215+03:00  INFO 26976 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:27:11.243+03:00  WARN 26976 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:27:11.897+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:27:11.941+03:00  INFO 26976 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:27:12.144+03:00  WARN 26976 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:27:12.394+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:27:12.423+03:00  INFO 26976 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:27:12.429+03:00  INFO 26976 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.223 seconds (process running for 3.836)
+2024-10-06T13:27:16.325+03:00  INFO 26976 --- [hotelManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:27:16.326+03:00  INFO 26976 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:27:16.327+03:00  INFO 26976 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:27:16.360+03:00  INFO 26976 --- [hotelManagement] [http-nio-8080-exec-1] c.e.bookcrud.controller.BookController   : INFO MESSAGE
+2024-10-06T13:27:23.470+03:00  INFO 26976 --- [hotelManagement] [http-nio-8080-exec-4] c.e.bookcrud.controller.BookController   : INFO MESSAGE
+2024-10-06T13:27:38.210+03:00  INFO 26976 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:27:38.212+03:00  INFO 26976 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:27:38.216+03:00  INFO 26976 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:27:42.403+03:00  INFO 16012 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 16012 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:27:42.405+03:00  INFO 16012 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:27:42.467+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:27:42.467+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:27:42.997+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:27:43.037+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2024-10-06T13:27:43.454+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:27:43.464+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:27:43.465+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:27:43.501+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:27:43.502+03:00  INFO 16012 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2024-10-06T13:27:43.613+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:27:43.653+03:00  INFO 16012 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:27:43.679+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:27:43.922+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:27:43.945+03:00  INFO 16012 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:27:44.067+03:00  INFO 16012 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fdcbe
+2024-10-06T13:27:44.069+03:00  INFO 16012 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:27:44.101+03:00  WARN 16012 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:27:44.772+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:27:44.808+03:00  INFO 16012 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:27:45.008+03:00  WARN 16012 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:27:45.252+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:27:45.280+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:27:45.287+03:00  INFO 16012 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.242 seconds (process running for 3.823)
+2024-10-06T13:27:55.426+03:00  INFO 16012 --- [hotelManagement] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:27:55.426+03:00  INFO 16012 --- [hotelManagement] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:27:55.427+03:00  INFO 16012 --- [hotelManagement] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:27:55.460+03:00  INFO 16012 --- [hotelManagement] [http-nio-8080-exec-4] c.e.bookcrud.controller.BookController   : INFO MESSAGE
+2024-10-06T13:28:27.635+03:00  INFO 16012 --- [hotelManagement] [http-nio-8080-exec-3] c.e.bookcrud.controller.BookController   : INFO MESSAGE
+2024-10-06T13:28:31.649+03:00  INFO 16012 --- [hotelManagement] [http-nio-8080-exec-2] c.e.bookcrud.controller.BookController   : INFO MESSAGE
+2024-10-06T13:29:53.044+03:00  INFO 16012 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-06T13:29:53.054+03:00  INFO 16012 --- [hotelManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:29:53.056+03:00  INFO 16012 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:29:53.060+03:00  INFO 16012 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:29:53.121+03:00  INFO 16012 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 16012 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:29:53.122+03:00  INFO 16012 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:29:53.245+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:29:53.250+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-10-06T13:29:53.318+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:29:53.319+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:29:53.319+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:29:53.332+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:29:53.332+03:00  INFO 16012 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2024-10-06T13:29:53.358+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:29:53.360+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:29:53.366+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:29:53.367+03:00  INFO 16012 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-06T13:29:53.407+03:00  INFO 16012 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5e26982c
+2024-10-06T13:29:53.407+03:00  INFO 16012 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-06T13:29:53.415+03:00  WARN 16012 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:29:53.448+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:29:53.458+03:00  INFO 16012 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:29:53.508+03:00  WARN 16012 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:29:53.595+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:29:53.607+03:00  INFO 16012 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:29:53.610+03:00  INFO 16012 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.509 seconds (process running for 132.146)
+2024-10-06T13:29:53.612+03:00  INFO 16012 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:30:23.046+03:00  INFO 16012 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:30:23.047+03:00  INFO 16012 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-06T13:30:23.049+03:00  INFO 16012 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-06T13:30:26.159+03:00  INFO 24508 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 24508 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:30:26.161+03:00  INFO 24508 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:30:26.229+03:00  INFO 24508 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:30:26.229+03:00  INFO 24508 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:30:26.768+03:00  INFO 24508 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:30:26.811+03:00  INFO 24508 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-10-06T13:30:27.234+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:30:27.246+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:30:27.246+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:30:27.286+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:30:27.286+03:00  INFO 24508 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2024-10-06T13:30:27.397+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:30:27.437+03:00  INFO 24508 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:30:27.466+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:30:27.721+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:30:27.744+03:00  INFO 24508 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:30:27.864+03:00  INFO 24508 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@476378fc
+2024-10-06T13:30:27.866+03:00  INFO 24508 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:30:27.893+03:00  WARN 24508 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:30:28.548+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:30:28.584+03:00  INFO 24508 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:30:28.788+03:00  WARN 24508 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:30:29.083+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:30:29.120+03:00  INFO 24508 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:30:29.127+03:00  INFO 24508 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.326 seconds (process running for 3.943)
+2024-10-06T13:30:32.088+03:00  INFO 24508 --- [hotelManagement] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:30:32.088+03:00  INFO 24508 --- [hotelManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:30:32.089+03:00  INFO 24508 --- [hotelManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:30:32.185+03:00  WARN 24508 --- [hotelManagement] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.bookcrud.exception.BookNotFoundException: Book not found with id 10]
+2024-10-06T13:31:51.549+03:00  INFO 24508 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:31:51.551+03:00  INFO 24508 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:31:51.555+03:00  INFO 24508 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:31:54.711+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 25852 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:31:54.713+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:31:54.785+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:31:54.786+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:31:55.388+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:31:55.430+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2024-10-06T13:31:55.872+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:31:55.883+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:31:55.884+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:31:55.922+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:31:55.922+03:00  INFO 25852 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
+2024-10-06T13:31:56.042+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:31:56.086+03:00  INFO 25852 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:31:56.116+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:31:56.433+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:31:56.459+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:31:56.596+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f72a01e
+2024-10-06T13:31:56.598+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:31:56.626+03:00  WARN 25852 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:31:57.294+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:31:57.333+03:00  INFO 25852 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:31:57.543+03:00  WARN 25852 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:31:57.790+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:31:57.818+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:31:57.824+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.497 seconds (process running for 4.096)
+2024-10-06T13:31:58.219+03:00  INFO 25852 --- [hotelManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:31:58.219+03:00  INFO 25852 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:31:58.220+03:00  INFO 25852 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:31:58.294+03:00 ERROR 25852 --- [hotelManagement] [http-nio-8080-exec-1] c.e.bookcrud.controller.BookController   : ERROR MESSAGE
+2024-10-06T13:31:58.308+03:00  WARN 25852 --- [hotelManagement] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.bookcrud.exception.BookNotFoundException: Book not found with id 10]
+2024-10-06T13:31:58.685+03:00 ERROR 25852 --- [hotelManagement] [http-nio-8080-exec-5] c.e.bookcrud.controller.BookController   : ERROR MESSAGE
+2024-10-06T13:31:58.687+03:00  WARN 25852 --- [hotelManagement] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.bookcrud.exception.BookNotFoundException: Book not found with id 10]
+2024-10-06T13:33:28.473+03:00  INFO 25852 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-06T13:33:28.483+03:00  INFO 25852 --- [hotelManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:33:28.485+03:00  INFO 25852 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:33:28.489+03:00  INFO 25852 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:33:28.552+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 25852 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:33:28.552+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:33:28.684+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:33:28.690+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-10-06T13:33:28.762+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:33:28.763+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:33:28.764+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:33:28.777+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:33:28.777+03:00  INFO 25852 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 224 ms
+2024-10-06T13:33:28.805+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:33:28.807+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:33:28.813+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:33:28.813+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-06T13:33:28.852+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6d87cb15
+2024-10-06T13:33:28.852+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-06T13:33:28.860+03:00  WARN 25852 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:33:28.890+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:33:28.900+03:00  INFO 25852 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:33:28.946+03:00  WARN 25852 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:33:29.047+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:33:29.061+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:33:29.064+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.535 seconds (process running for 95.335)
+2024-10-06T13:33:29.066+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:34:33.645+03:00  INFO 25852 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-06T13:34:33.652+03:00  INFO 25852 --- [hotelManagement] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:34:33.652+03:00  INFO 25852 --- [hotelManagement] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-06T13:34:33.655+03:00  INFO 25852 --- [hotelManagement] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-06T13:34:33.710+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 25852 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:34:33.711+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:34:33.828+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:34:33.833+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-10-06T13:34:33.903+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:34:33.903+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:34:33.903+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:34:33.918+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:34:33.918+03:00  INFO 25852 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 206 ms
+2024-10-06T13:34:33.946+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:34:33.948+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:34:33.955+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:34:33.956+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-10-06T13:34:33.994+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@11cd0827
+2024-10-06T13:34:33.994+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-10-06T13:34:34.002+03:00  WARN 25852 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:34:34.029+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:34:34.039+03:00  INFO 25852 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:34:34.086+03:00  WARN 25852 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:34:34.157+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:34:34.167+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:34:34.170+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.478 seconds (process running for 160.442)
+2024-10-06T13:34:34.172+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:34:37.975+03:00  INFO 25852 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-06T13:34:37.981+03:00  INFO 25852 --- [hotelManagement] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:34:37.981+03:00  INFO 25852 --- [hotelManagement] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-10-06T13:34:37.984+03:00  INFO 25852 --- [hotelManagement] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-10-06T13:34:38.038+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 25852 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:34:38.038+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:34:38.154+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:34:38.158+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-10-06T13:34:38.217+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:34:38.218+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:34:38.218+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:34:38.231+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:34:38.231+03:00  INFO 25852 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2024-10-06T13:34:38.261+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:34:38.263+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:34:38.270+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:34:38.271+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-10-06T13:34:38.311+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@284bdbf0
+2024-10-06T13:34:38.311+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-10-06T13:34:38.319+03:00  WARN 25852 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:34:38.344+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:34:38.354+03:00  INFO 25852 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:34:38.405+03:00  WARN 25852 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:34:38.477+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:34:38.485+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:34:38.488+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.47 seconds (process running for 164.76)
+2024-10-06T13:34:38.490+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:35:23.029+03:00  INFO 25852 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-06T13:35:23.035+03:00  INFO 25852 --- [hotelManagement] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:35:23.036+03:00  INFO 25852 --- [hotelManagement] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-10-06T13:35:23.040+03:00  INFO 25852 --- [hotelManagement] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-10-06T13:35:23.091+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 25852 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:35:23.091+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:35:23.196+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:35:23.201+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2024-10-06T13:35:23.256+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:35:23.257+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:35:23.257+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:35:23.269+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:35:23.269+03:00  INFO 25852 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2024-10-06T13:35:23.293+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:35:23.294+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:35:23.300+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:35:23.301+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-10-06T13:35:23.338+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@66da329e
+2024-10-06T13:35:23.339+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-10-06T13:35:23.346+03:00  WARN 25852 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:35:23.371+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:35:23.381+03:00  INFO 25852 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:35:23.427+03:00  WARN 25852 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:35:23.494+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:35:23.503+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:35:23.506+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.434 seconds (process running for 209.777)
+2024-10-06T13:35:23.506+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:36:51.178+03:00  INFO 25852 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2024-10-06T13:36:51.184+03:00  INFO 25852 --- [hotelManagement] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:36:51.184+03:00  INFO 25852 --- [hotelManagement] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-10-06T13:36:51.187+03:00  INFO 25852 --- [hotelManagement] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-10-06T13:36:51.236+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 25852 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:36:51.236+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:36:51.359+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:36:51.365+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-10-06T13:36:51.424+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:36:51.424+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:36:51.425+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:36:51.437+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:36:51.437+03:00  INFO 25852 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 200 ms
+2024-10-06T13:36:51.463+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:36:51.465+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:36:51.471+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:36:51.471+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-10-06T13:36:51.511+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@c5922a7
+2024-10-06T13:36:51.511+03:00  INFO 25852 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-10-06T13:36:51.518+03:00  WARN 25852 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:36:51.543+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:36:51.552+03:00  INFO 25852 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:36:51.626+03:00  WARN 25852 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:36:51.690+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:36:51.698+03:00  INFO 25852 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:36:51.700+03:00  INFO 25852 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.482 seconds (process running for 297.971)
+2024-10-06T13:36:51.701+03:00  INFO 25852 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:37:00.376+03:00  INFO 25852 --- [hotelManagement] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:37:00.376+03:00  INFO 25852 --- [hotelManagement] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:37:00.377+03:00  INFO 25852 --- [hotelManagement] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:37:00.382+03:00 ERROR 25852 --- [hotelManagement] [http-nio-8080-exec-3] c.e.bookcrud.controller.BookController   : ERROR MESSAGE
+2024-10-06T13:37:00.385+03:00  WARN 25852 --- [hotelManagement] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.bookcrud.exception.BookNotFoundException: Book not found with id 10]
+2024-10-06T13:37:04.272+03:00  INFO 25852 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:37:04.273+03:00  INFO 25852 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-10-06T13:37:04.275+03:00  INFO 25852 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-10-06T13:37:06.351+03:00  INFO 3576 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 3576 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:37:06.353+03:00  INFO 3576 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:37:06.428+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:37:06.429+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:37:06.988+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:37:07.031+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-10-06T13:37:07.428+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:37:07.438+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:37:07.438+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:37:07.476+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:37:07.476+03:00  INFO 3576 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2024-10-06T13:37:07.591+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:37:07.632+03:00  INFO 3576 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:37:07.659+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:37:07.902+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:37:07.928+03:00  INFO 3576 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:37:08.050+03:00  INFO 3576 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59bae292
+2024-10-06T13:37:08.052+03:00  INFO 3576 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:37:08.079+03:00  WARN 3576 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:37:08.723+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:37:08.769+03:00  INFO 3576 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:37:08.977+03:00  WARN 3576 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:37:09.221+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:37:09.249+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:37:09.255+03:00  INFO 3576 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.284 seconds (process running for 3.898)
+2024-10-06T13:37:20.658+03:00  INFO 3576 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-06T13:37:20.667+03:00  INFO 3576 --- [hotelManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:37:20.669+03:00  INFO 3576 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:37:20.674+03:00  INFO 3576 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:37:20.755+03:00  INFO 3576 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 3576 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:37:20.756+03:00  INFO 3576 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:37:20.877+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:37:20.883+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-10-06T13:37:20.948+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:37:20.949+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:37:20.949+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:37:20.963+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:37:20.963+03:00  INFO 3576 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 206 ms
+2024-10-06T13:37:20.989+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:37:20.991+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:37:20.998+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:37:20.998+03:00  INFO 3576 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-06T13:37:21.035+03:00  INFO 3576 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@691ea011
+2024-10-06T13:37:21.035+03:00  INFO 3576 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-06T13:37:21.043+03:00  WARN 3576 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:37:21.074+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:37:21.085+03:00  INFO 3576 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:37:21.132+03:00  WARN 3576 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:37:21.220+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:37:21.229+03:00  INFO 3576 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:37:21.232+03:00  INFO 3576 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.498 seconds (process running for 15.876)
+2024-10-06T13:37:21.233+03:00  INFO 3576 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:37:31.627+03:00  INFO 3576 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:37:31.627+03:00  INFO 3576 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-06T13:37:31.630+03:00  INFO 3576 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-06T13:37:34.672+03:00  INFO 20604 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 20604 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:37:34.675+03:00  INFO 20604 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:37:34.740+03:00  INFO 20604 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:37:34.740+03:00  INFO 20604 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:37:35.283+03:00  INFO 20604 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:37:35.328+03:00  INFO 20604 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-10-06T13:37:35.729+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:37:35.742+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:37:35.743+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:37:35.782+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:37:35.783+03:00  INFO 20604 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2024-10-06T13:37:35.908+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:37:35.951+03:00  INFO 20604 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:37:35.978+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:37:36.220+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:37:36.244+03:00  INFO 20604 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:37:36.368+03:00  INFO 20604 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13498a29
+2024-10-06T13:37:36.369+03:00  INFO 20604 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:37:36.397+03:00  WARN 20604 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:37:37.037+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:37:37.074+03:00  INFO 20604 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:37:37.281+03:00  WARN 20604 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:37:37.531+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:37:37.557+03:00  INFO 20604 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:37:37.563+03:00  INFO 20604 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.246 seconds (process running for 3.83)
+2024-10-06T13:37:39.534+03:00  INFO 20604 --- [hotelManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:37:39.534+03:00  INFO 20604 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:37:39.535+03:00  INFO 20604 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-06T13:37:39.607+03:00 ERROR 20604 --- [hotelManagement] [http-nio-8080-exec-1] c.e.bookcrud.controller.BookController   : ERROR MESSAGE
+2024-10-06T13:37:39.650+03:00  WARN 20604 --- [hotelManagement] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.bookcrud.exception.BookNotFoundException: Book not found with id 10]
+2024-10-06T13:38:43.212+03:00  INFO 20604 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:38:43.214+03:00  INFO 20604 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:38:43.219+03:00  INFO 20604 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:38:46.202+03:00  INFO 18056 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 18056 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:38:46.204+03:00  INFO 18056 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:38:46.262+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:38:46.262+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:38:46.803+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:38:46.845+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-10-06T13:38:47.258+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:38:47.270+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:38:47.271+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:38:47.315+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:38:47.315+03:00  INFO 18056 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1052 ms
+2024-10-06T13:38:47.429+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:38:47.472+03:00  INFO 18056 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:38:47.498+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:38:47.754+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:38:47.778+03:00  INFO 18056 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:38:47.902+03:00  INFO 18056 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@394bdf4c
+2024-10-06T13:38:47.903+03:00  INFO 18056 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:38:47.932+03:00  WARN 18056 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:38:48.586+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:38:48.622+03:00  INFO 18056 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:38:48.833+03:00  WARN 18056 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:38:49.080+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:38:49.109+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:38:49.116+03:00  INFO 18056 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.283 seconds (process running for 3.867)
+2024-10-06T13:38:56.711+03:00  INFO 18056 --- [hotelManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:38:56.712+03:00  INFO 18056 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:38:56.713+03:00  INFO 18056 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:38:56.794+03:00 ERROR 18056 --- [hotelManagement] [http-nio-8080-exec-1] c.e.bookcrud.controller.BookController   : ERROR MESSAGE
+2024-10-06T13:38:56.839+03:00  WARN 18056 --- [hotelManagement] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.bookcrud.exception.BookNotFoundException: Book not found with id 10]
+2024-10-06T13:38:57.914+03:00  INFO 18056 --- [hotelManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-06T13:38:57.923+03:00  INFO 18056 --- [hotelManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:38:57.925+03:00  INFO 18056 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:38:57.929+03:00  INFO 18056 --- [hotelManagement] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-06T13:38:57.991+03:00  INFO 18056 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 18056 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:38:57.991+03:00  INFO 18056 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:38:58.118+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:38:58.124+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-10-06T13:38:58.253+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:38:58.254+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:38:58.254+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:38:58.270+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:38:58.271+03:00  INFO 18056 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 278 ms
+2024-10-06T13:38:58.297+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:38:58.300+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:38:58.307+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:38:58.308+03:00  INFO 18056 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-06T13:38:58.351+03:00  INFO 18056 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@744e733a
+2024-10-06T13:38:58.352+03:00  INFO 18056 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-06T13:38:58.360+03:00  WARN 18056 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:38:58.391+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:38:58.401+03:00  INFO 18056 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:38:58.453+03:00  WARN 18056 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:38:58.532+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:38:58.542+03:00  INFO 18056 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:38:58.544+03:00  INFO 18056 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 0.574 seconds (process running for 13.297)
+2024-10-06T13:38:58.546+03:00  INFO 18056 --- [hotelManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-06T13:39:52.268+03:00  INFO 18056 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:39:52.269+03:00  INFO 18056 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-06T13:39:52.272+03:00  INFO 18056 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-06T13:43:39.540+03:00  INFO 28108 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Starting BookCRUDApplication using Java 23 with PID 28108 (C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD\target\classes started by Mohamed in C:\Users\Mohamed\OneDrive\Desktop\springboot\Book-CRUD)
+2024-10-06T13:43:39.542+03:00  INFO 28108 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-06T13:43:39.599+03:00  INFO 28108 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-06T13:43:39.599+03:00  INFO 28108 --- [hotelManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-06T13:43:40.099+03:00  INFO 28108 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06T13:43:40.144+03:00  INFO 28108 --- [hotelManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-10-06T13:43:40.533+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-06T13:43:40.546+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-06T13:43:40.546+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06T13:43:40.581+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-06T13:43:40.581+03:00  INFO 28108 --- [hotelManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
+2024-10-06T13:43:40.689+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06T13:43:40.728+03:00  INFO 28108 --- [hotelManagement] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06T13:43:40.753+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-06T13:43:40.993+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06T13:43:41.015+03:00  INFO 28108 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-06T13:43:41.140+03:00  INFO 28108 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bb9def4
+2024-10-06T13:43:41.141+03:00  INFO 28108 --- [hotelManagement] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-06T13:43:41.169+03:00  WARN 28108 --- [hotelManagement] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06T13:43:41.807+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06T13:43:41.850+03:00  INFO 28108 --- [hotelManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:43:42.050+03:00  WARN 28108 --- [hotelManagement] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06T13:43:42.294+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-06T13:43:42.327+03:00  INFO 28108 --- [hotelManagement] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-06T13:43:42.334+03:00  INFO 28108 --- [hotelManagement] [restartedMain] c.example.bookcrud.BookCRUDApplication   : Started BookCRUDApplication in 3.138 seconds (process running for 4.797)
+2024-10-06T13:43:44.552+03:00  INFO 28108 --- [hotelManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06T13:43:44.552+03:00  INFO 28108 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-06T13:43:44.553+03:00  INFO 28108 --- [hotelManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-06T13:43:44.611+03:00  WARN 28108 --- [hotelManagement] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalStateException: fnkls]
+2024-10-06T13:43:54.014+03:00  INFO 28108 --- [hotelManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06T13:43:54.016+03:00  INFO 28108 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-06T13:43:54.020+03:00  INFO 28108 --- [hotelManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
